@@ -1,8 +1,23 @@
-body{
+body {
     background-image: url('https://wallpapercave.com/wp/wp4141018.jpg');
-width: fixed;
-image-resolution: 120px ;}
-#string {
+    font-family: 'Poppins-Regular', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+
     background-color: rgba(255, 255, 255, 0.288); /* Use rgba for transparency */
     width: 25%;
     margin: 120px auto;
@@ -15,42 +30,27 @@ image-resolution: 120px ;}
     position: relative;
 }
 
-button{
-background-color: green;
-border: none;
-color : white;
-padding: 15px 32px;
-text-align: center;
-text-decoration: dashed;
-display: inline-block;
-font-size: 16px;
-font-family: Montserrat-SemiBold;
-  font-size: 18px;
-  line-height: 1.2;
-
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  width: calc((100% - 20px) / 2);
-  height: 70px;
-  border-radius: 10px;
-  box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
-  -o-box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
-  -ms-box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2);
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
-  position: relative;
-  z-index: 1;
+.form-group {
+    margin-bottom: 20px;
 }
-img{
-    width: 100%;
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-login {
+    background-color: #fc00ff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #cc00e0;
 }
