@@ -4,64 +4,7 @@
     <meta charset="UTF-8">
     <title>Login Form</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body {
-            background-image: url('https://wallpapercave.com/wp/wp4141018.jpg');
-            font-family: 'Poppins-Regular', sans-serif;
-            background-color: #f4f4f4;
-        }
-
-        .container-login {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .login-form {
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            width: 400px;
-
-            background-color: rgba(255, 255, 255, 0.288); /* Use rgba for transparency */
-    width: 25%;
-    margin: 120px auto;
-    padding: 50px;
-    box-shadow: 5px 5px 5px;
-    backdrop-filter: blur(10px) saturate(100%);
-    -webkit-backdrop-filter: rgba(233, 230, 230, 0.007);
-    border-radius: 12px;
-    border: 1px solid rgb(173, 6, 6);
-    position: relative;
-        }
-
-        .form-group {
-            margin-bottom: 20px;
-        }
-
-        .form-group label {
-            font-weight: bold;
-        }
-
-        .form-control {
-            border-radius: 5px;
-        }
-
-        .btn-login {
-            background-color: #fc00ff;
-            color: #fff;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .btn-login:hover {
-            background-color: #cc00e0;
-        }
-    </style>
+        
 </head>
 <body>
 
